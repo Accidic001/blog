@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+  }
+  img {
+    max-width: 100%;
+  }
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2381b3c8, #055261); /* Blue gradient background */
+    color: #fff; /* Ensure default text is white */
+  }
+  
+  /* Index Page Styling */
+  .index-page {
+    
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #e0f7fa; /* Light blue background */
+    border-radius: 10px;
+  }
+  
+  /* Header Styling */
+  .index-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue header text */
+    text-align: center;
+  }
+  
+  /* Post Card Styling */
+  .post-card {
+    background: rgba(76, 103, 238, 0.26); /* Semi-transparent blue */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .post-card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  /* Post Header */
+  .post-card-header h2 {
+    color: #007bff; /* Blue header */
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  
+  /* Post Author */
+  .author {
+    color: #55aaff; /* Lighter blue */
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  /* Post Image */
+  .post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Image shadow */
+  }
+  
+  /* Post Content */
+  .post-card-body {
+    margin-top: 12px;
+    color: #333; /* Dark text for readability */
+  }
+  .post-card-body p {
+    margin-bottom: 16px;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  /* Fallback Message Styling */
+  .index-page p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #999;
+  }
+  .file-link
+  {
+    color: #5749ed;
+  }
+  .toggle-posts-button {
+    margin: auto;
+    width: 30%;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Space below the button */
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-posts-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  header nav button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav button:hover {
+    background-color: #f0f0f0; /* Optional hover effect */
+  }
+  .header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #f8f9fa; /* Optional background color */
+  }
+
+  .headers{
+        display: flex;
+        justify-content: space-between; /* Space between logo and nav */
+        align-items: center;
+        padding: 10px 20px; /* Adjust padding as needed */
+        background-color: #f8f9fa; /* Optional background color */
+        color: #0056b3;
+    flex-wrap: wrap;
+      
+  }
+  .anouncer{
+    display: flex;
+    
+   justify-self: center;
+   align-self: center;
+   color: red;
+   margin-left: 290px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Space between nav items */
+    align-items: center;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #f0f0f0; /* Optional hover effect */
+  }
+  
