@@ -139,6 +139,7 @@
         background-color: #f8f9fa; /* Optional background color */
         color: #0056b3;
     flex-wrap: wrap;
+    margin-bottom: 15px;
       
   }
   .anouncer{
@@ -170,4 +171,4 @@
   .nav-button:hover {
     background-color: #f0f0f0; /* Optional hover effect */
   }
-  
+ 

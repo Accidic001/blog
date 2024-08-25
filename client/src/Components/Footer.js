@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -7,8 +8,8 @@ function Footer() {
         <footer>
        <div class="row copyright">
   <div class="footer-menu">
-  <a href="">About</a>
-  <a href="">Terms Of Service</a>
+  <Link to="/about">About</Link>
+  <a href="/">Terms Of Service</a>
 
   </div>
    <p>Copyright. All rights Reserved &copy; 2024</p>

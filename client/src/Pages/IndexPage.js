@@ -71,7 +71,7 @@ export default function IndexPage() {
     <div className="index-page">
       <div className='headers'>
         {userInfo?<><Link to="/" className="home-button">Home</Link> {/* Add Home button here */}
-        <Link to="/create" className="create-new-post-button">Create new post</Link> {/* Right-aligned button */}</>:
+        <Link to="/about" className="create-new-post-button">About Us</Link> {/* Right-aligned button */}</>:
         <div className='anouncer'>Login or Register to upload your post</div>}
       </div>
       <h1>{showUserPosts ? 'Your Posts' : 'Latest Posts'}</h1>
