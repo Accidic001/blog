@@ -10,6 +10,7 @@ const cookieParser = require('cookie-parser');
 const multer = require('multer');
 const uploadMiddleware = multer({ dest: 'uploads/' });
 const fs = require('fs');
+require('dotenv').config
 
 const secret = 'your_jwt_secret'; // Secure this in environment variables in production
 const salt = bcrypt.genSaltSync(10); // Define the salt for bcrypt
@@ -32,7 +33,8 @@ app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://muhammadabubakarjamiu:hccSjarodDl5C2B4@cluster0.hkjjejk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+const URL=process.env.CONNECTION_URL;
+mongoose.connect(URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
