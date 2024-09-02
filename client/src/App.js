@@ -8,6 +8,7 @@ import { UserContextProvider } from './UserContext.js';
 import CreatePost from './Pages/CreatePost.js';
 import PostPage from './Pages/PostPage.js';
 import AboutPage from './Pages/AboutPage.js';
+import './Components/header.css';
 
 function App() {
  

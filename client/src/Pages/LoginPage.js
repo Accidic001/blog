@@ -66,6 +66,7 @@ export default function LoginPage() {
     <form className="login" onSubmit={login}>
       <h1>Login</h1>
       <input
+      id="username"
         type="text"
         placeholder="Username"
         value={username}
@@ -73,6 +74,7 @@ export default function LoginPage() {
         required
       />
       <input
+      id="password"
         type="password"
         placeholder="Password"
         value={password}

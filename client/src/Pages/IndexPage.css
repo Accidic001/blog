@@ -14,16 +14,16 @@
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #2381b3c8, #055261); /* Blue gradient background */
-    color: #fff; /* Ensure default text is white */
+    color: #ec1c1c; /* Ensure default text is white */
   }
   
   /* Index Page Styling */
   .index-page {
     
     padding: 20px;
-    max-width: 1200px;
+    max-width: 90vw;
     margin: 0 auto;
-    background-color: #e0f7fa; /* Light blue background */
+    background-color: #f7ecd0e4; /* Light blue background */
     border-radius: 10px;
   }
   
@@ -32,13 +32,15 @@
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #007bff; /* Blue header text */
-    text-align: center;
+    
   }
   
   /* Post Card Styling */
   .post-card {
     background: rgba(76, 103, 238, 0.26); /* Semi-transparent blue */
     border-radius: 15px;
+    min-width: 80vw;
+   
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -54,6 +56,7 @@
     color: #007bff; /* Blue header */
     margin-bottom: 10px;
     font-size: 1.8em;
+    max-width: 50vw;
   }
   
   /* Post Author */
@@ -65,7 +68,11 @@
   
   /* Post Image */
   .post-image {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
     height: auto;
     border-radius: 10px;
     margin-bottom: 12px;
@@ -74,17 +81,28 @@
   
   /* Post Content */
   .post-card-body {
+    display: flex;
+    justify-content: center;
     margin-top: 12px;
     color: #333; /* Dark text for readability */
+    font-size: .7em;
+   
   }
   .post-card-body p {
     margin-bottom: 16px;
     font-size: 1.1em;
     line-height: 1.6;
-  }
+}
+.post-card-header .author
+{
+  
+  color: #a51818;
+}
+
+
   
   /* Fallback Message Styling */
-  .index-page p {
+  .index-page p {max-width:50vw;
     text-align: center;
     font-size: 1.5em;
     color: #999;
@@ -95,19 +113,23 @@
   }
   .toggle-posts-button {
     margin: auto;
-    width: 30%;
-    background-color: #007bff; /* Blue background */
-    color: #fff; /* White text */
+    width: auto;
+    background-color: #54a1f45f; /* Blue background */
+    color: #094fb2; /* var color for theme */
+    font-weight: 700;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 20px; /* Space below the button */
     transition: background-color 0.3s ease;
+    border: 2px solid #333;
   }
   
   .toggle-posts-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #065cb7; /* Darker blue on hover */
+    color: #fff;
+    transition: .7s;
   }
   header nav button {
     background: none;
@@ -120,9 +142,7 @@
     transition: background-color 0.3s ease;
   }
   
-  header nav button:hover {
-    background-color: #f0f0f0; /* Optional hover effect */
-  }
+
   .header {
     display: flex;
     justify-content: space-between; /* Space between logo and nav */
@@ -144,11 +164,9 @@
   }
   .anouncer{
     display: flex;
-    
-   justify-self: center;
-   align-self: center;
+    margin: auto;
    color: red;
-   margin-left: 290px;
+   
   }
   
   .nav-links {

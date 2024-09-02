@@ -1,0 +1,121 @@
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+    
+  }
+  
+  header a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header a.logo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 7vw;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap; /* Allow navigation items to wrap */
+    justify-content: center; /* Center the navigation items */
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Specific styling for the Create New Post button */
+  #create {
+   
+    background-color: #68beea92;
+    color: #043b60;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 50%;
+
+    height: auto;
+    border: 2px solid #000;
+    transition: 0.7s;
+    margin-top: 1em;
+  }
+  
+  #create:hover {
+    background-color: #085b8e;
+    color: #b2d2f3;
+  }
+  .logout {
+    background-color: #68beea92;
+    color: #043b60;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    border: 2px solid #000;
+    transition: 0.7s;
+    margin-top: 1em;
+  }
+  
+  .logout:hover {
+    background-color: #085b8e;
+    color: #b2d2f3;
+  }
+  
+  /* Styling for the Logout button */
+  header nav button {
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav button:hover {
+    background-color: #555;
+  }
+  
+  /* Main header styling */
+  .main-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .main-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #e0f7fa;
+  }
+  
+  .main-header p {
+    font-size: 1.2em;
+    color: #b3e5fc;
+  }
+

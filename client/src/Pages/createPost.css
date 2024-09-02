@@ -1,0 +1,19 @@
+#createPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  #createPost form {
+    background-color: #f9f9f9; /* Optional: background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90vw; /* Max width for the form */
+    width: 100%; /* Ensure the form is responsive */
+    margin-bottom: 2em;
+    border: 2px solid #201f1f;
+    color: #333;
+  }
+  

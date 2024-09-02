@@ -6,8 +6,8 @@ function Footer() {
   return (
     
         <footer>
-       <div class="row copyright">
-  <div class="footer-menu">
+       <div className="row copyright">
+  <div className="footer-menu">
   <Link to="/about">About</Link>
   <a href="/">Terms Of Service</a>
 
