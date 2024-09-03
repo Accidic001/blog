@@ -1,0 +1,52 @@
+/* Post page styling */
+.post-page{
+width: 100%;
+}
+div.post-page div.image {
+    max-height: 300px;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  div.post-page div.image img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+  }
+  
+  div.post-page a {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  div.post-page h1 {
+    text-align: center;
+    margin: 10px 0 5px;
+  }
+  
+  div.post-page time {
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    color: #aaa;
+    margin: 10px 0;
+  }
+  
+  .post-page div.author {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: .7rem;
+    font-weight: bold;
+  }
+  
+  .content p {
+    line-height: 1.7rem;
+    margin: 30px 0;
+  }
+  
+  .content li {
+    margin-bottom: 10px;
+  }
+  
+  
+  

@@ -49,18 +49,18 @@ export default function Header() {
 
   return (
     <header>
-      <Link to="/" className="logo">My Blog</Link>
+      <Link to="/" className="logo">Publisher</Link>
       <nav>
         {username?(
-          <>
+          <div className="d-flex">
            <Link to="/create" id='create' className="create">Create new post</Link>
            <button className="logout" 
             onClick={logout}>logout ({username})</button>
-          </>
+          </div>
         ):(<>
         
-        <Link to="/login">Login</Link>
-        <Link to="/register">Register</Link>
+        <Link id="side"  to="/login">Login</Link>
+        <Link  id="side" to="/register">Register</Link>
         </>)}
       </nav>
     </header>

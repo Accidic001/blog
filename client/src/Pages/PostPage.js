@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { formatISO9075 } from "date-fns";
+import "./PostPage.css";
 
 export default function PostPage() {
   const [postInfo, setPostInfo] = useState(null);
@@ -21,6 +22,7 @@ export default function PostPage() {
 
   return (
     <div className="post-page">
+      <div className="page">
       <button onClick={handleGoBack}>Return to Home Page</button>
       <h1>{postInfo.title}</h1>
       <time>{formatISO9075(new Date(postInfo.createdAt))}</time>
@@ -29,6 +31,7 @@ export default function PostPage() {
         <img src={`http://localhost:4000/${postInfo.cover}`} alt=""/>
       </div>
       <div className="content" dangerouslySetInnerHTML={{ __html: postInfo.content }} />
+    </div>
     </div>
   );
 }

@@ -9,7 +9,7 @@ function Footer() {
        <div className="row copyright">
   <div className="footer-menu">
   <Link to="/about">About</Link>
-  <a href="/">Terms Of Service</a>
+  <Link href="/">Terms Of Service</Link>
 
   </div>
    <p>Copyright. All rights Reserved &copy; 2024</p>

@@ -1,7 +1,7 @@
 import { formatISO9075 } from 'date-fns';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Pages/IndexPage.css';
+import "./Post.css";
 
 function Post({ title, summary, content, cover, author, createdAt, _id }) {
   console.log('Post data received:', { title, summary, content, cover, author, _id });

@@ -82,7 +82,7 @@ export default function IndexPage() {
             className="toggle-posts-button"
             disabled={!userInfo} // Disable button if not logged in
           >
-            {showUserPosts ? 'Show Me All Posts' : 'Show Me My Posts'}
+            {showUserPosts ? 'Show Me All Posts' : 'Show Posts'}
           </button>
           
         </div>

@@ -19,12 +19,13 @@
   
   /* Index Page Styling */
   .index-page {
-    
     padding: 20px;
     max-width: 90vw;
     margin: 0 auto;
     background-color: #f7ecd0e4; /* Light blue background */
     border-radius: 10px;
+    margin-bottom: 50%;
+    margin-top: 45px;
   }
   
   /* Header Styling */

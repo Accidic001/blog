@@ -2,6 +2,7 @@ footer{
     display: flex;
     width: 100%;
     position: sticky;
+    bottom: 0;
 }
 
 .copyright {
@@ -15,20 +16,24 @@ footer{
     
   }
   .footer-menu{
-    
+    display: flex;
+    gap: 10px;
       margin-right: 20px;
   }
   .footer-menu a{
-    color: #cfd2d6;
+    font-size: 0.9em;
+    color: #fff;
     padding: 6px;
     text-decoration: none;
+    
   }
   .footer-menu a:hover, .social i:hover{
-    color: #c7940a;
+    color:#0c1f38;
   }
   .copyright p {
     font-size: 0.9em;
     text-align: right;
     margin-left: 15px;
+    color: #fff;
   }
   
